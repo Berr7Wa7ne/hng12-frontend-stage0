@@ -1,0 +1,86 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+  
+/* Center the card */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: #f4f4f4;
+}
+  
+/* Profile Card */
+.profile-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    margin: 40px;
+}
+
+/* Profile Image */
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* object-fit: cover; */
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+/* Name */
+.profile-card h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.profile-card h3 {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+    margin-bottom: 15px;
+}
+
+/* Bio, Job Title, Location, Email */
+.profile-card p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+    margin-bottom: 15px;
+}
+
+.profile-card p[data-testid="shortBio"] {
+    text-align: justify;
+    text-justify: inter-word; 
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+
+/* Social Links */
+.social-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin: 0 5px;
+    margin-bottom: 15px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* UTC Time */
+#utc-time {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 16px;
+    margin-top: 10px;
+}

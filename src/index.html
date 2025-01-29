@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HNG Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="profile-card">
+      <!-- Profile Picture -->
+      <img src="images\profile.jpg" alt="Profile Image" data-testid="profilePicture">
+
+      <!-- Full Name -->
+      <h2 data-testid="fullName">Code-Valor</h2>
+
+      <!-- Job Title -->
+      <h3 data-testid="jobTitle">Full Stack Developer</h3>
+
+      <!-- Short Bio -->
+      <p data-testid="shortBio">
+        I am a passionate Full Stack Developer with a strong interest in building scalable web applications. I specialize in both frontend and backend development, ensuring seamless user experiences and efficient server-side logic. I enjoy working with modern technologies, solving complex problems, and creating interactive web solutions. Currently, I am expanding my skills by learning new frameworks and best practices in software development. My goal is to build user-friendly and high-performing applications. Beyond coding, I stay updated with the latest tech trends and enjoy collaborating on innovative projects.
+      </p>
+
+      <!-- Current Location -->
+      <p data-testid="currentLocation">Abuja, Nigeria</p>
+
+      <!-- Email Address -->
+      <p data-testid="emailAddress">cosyberry3@gmail.com</p>
+
+      <!-- Social Links -->
+      <div class="social-links" data-testid="socialLinks">
+        <a href="#" target="_blank">GitHub</a> |
+        <a href="#" target="_blank">LinkedIn</a> |
+        <a href="#" target="_blank">Twitter</a>
+      </div>
+
+      <!-- Current UTC Time -->
+      <p id="utc-time" data-testid="currentTimeUTC">Loading...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
